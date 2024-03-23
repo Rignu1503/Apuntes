@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img width="200" src="https://midu.dev/images/wallpapers/una-taza-de-javascript.png">
+    <img src="https://midu.dev/images/wallpapers/una-taza-de-javascript.png">
 </p>
 
 <div>

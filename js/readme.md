@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=2AA889&center=true&vCenter=true&width=435&lines=Hola+coders+bienvenido;+Apuntes+de+JavaScript+Vanilla;Love+to+Travel+and+Read+Books" alt="Typing SVG" /></a></p>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FFD600&center=true&vCenter=true&width=435&lines=Hola+coders+bienvenido;+Apuntes+de+JavaScript+Vanilla" alt="Typing SVG" /></a></p>
 
 
 <p align="center">

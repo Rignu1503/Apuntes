@@ -3,7 +3,8 @@
 
 
 <p align="center">
-    <img width="700" src="[https://midu.dev/images/wallpapers/una-taza-de-javascript.png](https://media.licdn.com/dms/image/D4E12AQEipdNDPiE0tA/article-cover_image-shrink_720_1280/0/1702969505983?e=1717632000&v=beta&t=05nlOsA7cfbkQtlB-EHdCbhPlmmgmNk7S6kr7k8zhUA)">
+    <img width="700" src="[https://preview.redd.it/dsuidip45i861.png?width=1080&crop=smart&auto=webp&s=ba3592b18f9248a8e33ab12883fbd6b136616074
+](https://media.licdn.com/dms/image/D4E12AQEipdNDPiE0tA/article-cover_image-shrink_720_1280/0/1702969505983?e=1717632000&v=beta&t=05nlOsA7cfbkQtlB-EHdCbhPlmmgmNk7S6kr7k8zhUA)">
 </p>
 
 <div>

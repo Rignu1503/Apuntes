@@ -1,4 +1,7 @@
 
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=2AA889&center=true&vCenter=true&width=435&lines=Hola+coders%2C;A+Self-motivated+Tech+Enthusiast;Always+Learning+New+Things;Love+to+Travel+and+Read+Books" alt="Typing SVG" /></a></p>
+
+
 <p align="center">
     <img width="700" src="https://midu.dev/images/wallpapers/una-taza-de-javascript.png">
 </p>
@@ -10,13 +13,13 @@
 </strong><br>
 
 <hr>
+<br>
   <h3 align="center">Estado del repositorio</h3>
   <p>
        Este proyecto se encuentra actualmente en desarrollo activo y se esperan actualizaciones en un futuro cercano.
   </p>
  
 
-💻 <br>
 
 
 

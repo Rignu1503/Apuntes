@@ -2,8 +2,8 @@
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FFD600&center=true&vCenter=true&width=435&lines=Hola+coders+bienvenido;+Apuntes+de+JavaScript+Vanilla" alt="Typing SVG" /></a></p>
 
 
-<p>
-    <img src="https://c4.wallpaperflare.com/wallpaper/510/989/208/web-development-development-java-wallpaper-preview.jpg">
+<p align="center">
+    <img src="[https://c4.wallpaperflare.com/wallpaper/510/989/208/web-development-development-java-wallpaper-preview.jpg](https://media.licdn.com/dms/image/D4D12AQFQQwy3Fo_6OA/article-cover_image-shrink_720_1280/0/1695123612065?e=1717632000&v=beta&t=s4fpraOp3i0c3E071MuDJcku24MifIvMLbltFIFnKn0)">
 </p>
 
 <div>

@@ -1,7 +1,21 @@
-  <div align=center>
-        <a href="https://www.linkedin.com/in/ahmedfathydev/"><img src="https://img.shields.io/badge/Linkedin-0077b5?style=flat&logo=linkedin" alt="LinkedIn" /></a>
-        <a href="https://www.upwork.com/freelancers/~0121ca7f3563e57c0b"><img src="https://img.shields.io/badge/Upwork-494949?style=flat&logo=upwork" alt="UpWork" /></a>
-        <a href="https://stackoverflow.com/users/11837259/ahmed-fathy"><img src="https://img.shields.io/badge/Stack Overflow-f48024?style=flat&logo=stackoverflow&logoColor=white" alt="Stack Overflow" /></a>
-        <a href="https://www.quora.com/profile/Ahmed-Fathy-616"><img src="https://img.shields.io/badge/Quora-B92B27?style=flat&logo=quora" alt="Quora" /></a>
-        <a href="https://t.me/ahmedfathydev"><img src="https://img.shields.io/badge/Telegram-0088cc?style=flat&logo=telegram" alt="Telegram" /></a>
-    </div>
+
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FFD600&center=true&vCenter=true&width=435&lines=Hola+coders+bienvenido;+Apuntes+de+JavaScript+Vanilla" alt="Typing SVG" /></a></p>
+
+
+<p align="center">
+    <img width="700" src="[https://midu.dev/images/wallpapers/una-taza-de-javascript.png](https://media.licdn.com/dms/image/D4E12AQEipdNDPiE0tA/article-cover_image-shrink_720_1280/0/1702969505983?e=1717632000&v=beta&t=05nlOsA7cfbkQtlB-EHdCbhPlmmgmNk7S6kr7k8zhUA)">
+</p>
+
+<div>
+<strong align="center">
+¡Te damos la bienvenida al repositorio de apuntes de Java! Este espacio está diseñado para ofrecerte una guía completa y práctica sobre el lenguaje de programación Java. Desde los conceptos básicos hasta las técnicas avanzadas, encontrarás aquí una colección de recursos que te ayudarán a fortalecer tus habilidades de desarrollo de software. ¡Sumérgete en el mundo de Java, explora, aprende y lleva tu conocimiento al siguiente nivel!
+</strong><br>
+
+<hr>
+<br>
+  <h3 align="center">Estado del repositorio</h3>
+  <p align="center">
+       Este proyecto se encuentra actualmente en desarrollo activo y se esperan actualizaciones en un futuro cercano.
+  </p>
+ 
+

@@ -1,6 +1,25 @@
-    <div align=center>
-        <img src="https://raw.githubusercontent.com/AhmedFathyDev/AhmedFathyDev/main/GitHub.png" alt="GitHub Octocat Drinking a Cup of Coffee" height="200">
-    </div>
-    <div align=center>
-        <img src="https://readme-typing-svg.herokuapp.com?color=%236FDA44&size=32&center=true&vCenter=true&width=600&height=50&lines=Hi+there+I'm+Fathy+%F0%9F%91%8B;Computer+Science+Student;Back-End+Engineer;Problem+Solver;Freelancer;Open-Source+Enthusiast" alt="Headline" />
-    </div>
+<p align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&color=FFD600&center=true&vCenter=true&width=435&lines=Hola+coders+bienvenido;+Apuntes+de+JavaScript+Vanilla" alt="Typing SVG" /></a></p>
+
+
+<p align="center">
+    <img width="700" src="https://midu.dev/images/wallpapers/una-taza-de-javascript.png">
+</p>
+
+<div>
+<strong align="center">
+    Bienvenido a mi repositorio de apuntes de JavaScript vanilla/Nativo. Aquí encontrarás una recopilación concisa y útil de conceptos, ejemplos y prácticas clave
+    para dominar este lenguaje de programación. Desde los conceptos básicos hasta técnicas avanzadas
+</strong><br>
+
+<hr>
+<br>
+  <h3 align="center">Estado del repositorio</h3>
+  <p>
+       Este proyecto se encuentra actualmente en desarrollo activo y se esperan actualizaciones en un futuro cercano.
+  </p>
+ 
+
+
+
+
+

@@ -17,13 +17,16 @@
 		<h1>Insert coder</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="#" method="post">
-					<input class="text" type="text" id="name" name="name" placeholder="name" required="">
-					<input class="text email" type="number" id="age" name="age" placeholder="age" required="">
-					<input class="text" type="text" id="clan" name="clan" placeholder="clan" required="">
+				<form th:object="${coder}" th:action="${action}" method="post">
+					<input type="hidden" th:field="*{id}" th:value="${coder.id}">
+					<input class="text" type="text" id="name" name="name" placeholder="name" required="" th:field="*{name}" th:value="${coder.name}">
+					<input class="text email" type="number" id="age" name="age" placeholder="age" required="" th:field="*{age}" th:value="${coder.age}">
+					<input class="text" type="text" id="clan" name="clan" placeholder="clan" required="" th:field="*{clan}" th:value="${coder.clan}">
 			
 					
-					<input type="submit" value="INSERT CODER">
+					<button type="submit">
+						guardar
+					</button>
                     
                     
 				</form>
@@ -37,7 +40,7 @@
 		</div>
         
 
-		<!-- <ul class="colorlib-bubbles">
+		<ul class="colorlib-bubbles">
 			<li></li>
 			<li></li>
 			<li></li>
@@ -48,7 +51,7 @@
 			<li></li>
 			<li></li>
 			<li></li>
-		</ul> -->
+		</ul>
 	</div>
 	<!-- //main -->
 </body>

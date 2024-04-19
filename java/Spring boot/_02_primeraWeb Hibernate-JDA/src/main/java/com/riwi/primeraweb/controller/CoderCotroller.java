@@ -1,6 +1,6 @@
 package com.riwi.primeraweb.controller;
 
-import java.util.List;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -33,7 +33,7 @@ public class CoderCotroller {
         Page<Coder> list =  this.objCoderService.fingPaginated(page-1, size);
         objModel.addAttribute("coderList", list); /* llave -valor */
         objModel.addAttribute("currentPage", page);
-        objModel.addAttribute("currentPage", list.getTotalPages()); 
+        objModel.addAttribute("totalPages", list.getTotalPages()); 
 
         /* Se debe retornar el nombre exacto de la vista html */
         return "viewCoder";

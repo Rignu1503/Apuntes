@@ -21,38 +21,41 @@ public class ProductService implements IProductService {
 
     @Override
     public void delete(Long id) {
-        // TODO Auto-generated method stub
-        
+        this.productRepository.findById(id).orElseThrow();
+        this.productRepository.deleteById(id);
     }
 
     @Override
     public Products findById(Long id) {
-        // TODO Auto-generated method stub
-        return null;
+
+        return this.productRepository.findById(id).orElseThrow();
     }
 
     @Override
     public List<Products> getAll() {
-        // TODO Auto-generated method stub
+
         return this.productRepository.findAll();
     }
 
     @Override
     public Products save(Products products) {
-        // TODO Auto-generated method stub
-        return null;
+
+        return this.productRepository.save(products);
     }
 
     @Override
     public List<Products> search(String name) {
-        // TODO Auto-generated method stub
+
         return null;
     }
 
     @Override
-    public Products update(Products products) {
-        // TODO Auto-generated method stub
-        return null;
+    public Products update(Long id, Products objProducts) {
+
+        this.productRepository.findById(id).orElseThrow();
+        objProducts.setId(id);
+
+        return this.productRepository.save(objProducts);
     }
     
 }

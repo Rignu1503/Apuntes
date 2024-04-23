@@ -14,7 +14,7 @@ public interface IProductService {
 
     public void delete(Long id);
 
-    public Products update(Products products);
+    public Products update(Long id, Products products);
 
     public List<Products> search(String name);
 

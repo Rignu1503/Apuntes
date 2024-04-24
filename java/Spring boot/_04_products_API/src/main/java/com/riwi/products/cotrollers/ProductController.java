@@ -30,6 +30,7 @@ public class ProductController {
         return ResponseEntity.ok(productService.getAll());
     }
 
+    
     @GetMapping(path = "/{id}")
     public ResponseEntity<Products> getById(@PathVariable Long id) {
         return ResponseEntity.ok(productService.findById(id));
@@ -50,5 +51,6 @@ public class ProductController {
         this.productService.delete(id);
         return ResponseEntity.noContent().build();
     }
+    
 
 }

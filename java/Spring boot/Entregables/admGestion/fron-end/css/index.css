@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --green: #99B898;
+    --dark: #2A363B;
+    --salmonLight: #FF847C;
+    --roseDark: #E84A5F;
+    --oranjeLight: #FECEA8;
+    --whinte: #FFFFFF;
+
+}
+
+
+h1{
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background: var(--oranjeLight) ;
+  font-family: "Mulish", sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+header button{
+  padding: 8px 40px;
+  background: var(--dark);
+  border: none;
+  border-radius: 10px;
+  color: var(--whinte);
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.list{
+  color: var(--oranjeLight);
+  background: var(--dark);
+  padding: 20px;
+  border-radius: 30px;
+  color: var(--whinte);
+}
+
+.nombre{
+  text-align: center;
+}
+
+.container_button{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 3rem;
+}
+
+.container_button button{
+  padding: 8px 40px;
+  font-family: "Mulish", sans-serif;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+button:nth-child(1){
+  background: var(--green);
+  color: var(--dark)
+}
+
+button:nth-child(2){
+  background: var(--roseDark);
+  color: var(--dark);
+  
+}
+
+
+

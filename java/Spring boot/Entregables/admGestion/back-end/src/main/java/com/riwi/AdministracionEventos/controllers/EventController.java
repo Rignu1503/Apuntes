@@ -21,7 +21,7 @@ import com.riwi.AdministracionEventos.servivicies.EventService;
 import lombok.AllArgsConstructor;
 
 @RestController
-@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST})
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT})
 @RequestMapping("/api/v1/events")
 @AllArgsConstructor
 
@@ -38,7 +38,7 @@ public class EventController {
     // Obtener por id
     @GetMapping(path = "/{id}")
     public ResponseEntity<Events> getEventById(@PathVariable("id") String id) {
-        
+
         return ResponseEntity.ok(this.eventService.getById(id));
     }
 
@@ -58,8 +58,9 @@ public class EventController {
 
     //Actualizar evento
     @PutMapping(path = "/{id}")
-    public ResponseEntity<Events> updateEvent(@PathVariable String id, @RequestBody Events event) {
-        return ResponseEntity.ok(this.eventService.update(id, event));
+    public ResponseEntity<Events> updateEvent(@PathVariable String id, @RequestBody Events objEvent) {
+
+        return ResponseEntity.ok(this.eventService.update(id, objEvent));
     }
     
 

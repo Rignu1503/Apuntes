@@ -1,6 +1,6 @@
 
 
-const URl = "http://localhost:8080/api/v1/events"
+export const URL = "http://localhost:8080/api/v1/events"
 const container = document.getElementById("container")
 
 getAll()
@@ -10,7 +10,7 @@ getAll()
 
 function getAll(){
 
-    fetch(URl)
+    fetch(URL)
     .then(response => response.json())
     .then(data => {
         let html = ""; 
@@ -18,16 +18,16 @@ function getAll(){
         
         data.forEach(event => {
             html += `
-            <div class="list" data-id=${event.id}>
+            <div class="list" >
                 <h3 class="nombre">${event.name}</h3>
                 <p class="ubicacion">${event.ubication}</p>
                 <p class="fecha">${event.date}</p>
                 <p class="capacidad">${event.capacity}</p>
                 <div class="container_button">
-                    <button>
+                    <button data-id=${event.id}>
                         Editar
                     </button>
-                    <button>
+                    <button data-id=${event.id}>
                         Eliminar
                     </button>
                 </div>

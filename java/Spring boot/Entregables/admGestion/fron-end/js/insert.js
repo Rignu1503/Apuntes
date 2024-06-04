@@ -1,6 +1,6 @@
-const URl = "http://localhost:8080/api/v1/events"; // Cambia la variable a 'URl'
+const URl = "http://localhost:8080/api/v1/events";
 
-const form = document.getElementById("form"); // Mueve esta línea arriba del evento submit
+const form = document.getElementById("form"); 
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -9,6 +9,7 @@ form.addEventListener("submit", (e) => {
     const date = document.getElementById("date").value;
     const ubication = document.getElementById("ubication").value;
     const capacity = document.getElementById("capacity").value;
+
 
     fechaFormateada = new Date(date).toISOString().split('T')[0];
 

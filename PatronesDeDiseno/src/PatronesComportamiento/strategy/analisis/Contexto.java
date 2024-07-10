@@ -4,7 +4,6 @@ import PatronesComportamiento.strategy.interfaces.IEstrategia;
 
 public class Contexto {
 
-
     private IEstrategia estrategia;
 
     public Contexto(IEstrategia estrategia) {

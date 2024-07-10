@@ -1,7 +1,6 @@
 package PatronesCreacionales.singleton.Model;
 
 public class Conexion {
-
     /* Declaración de la instancia estática */
     private static Conexion instancia;
 

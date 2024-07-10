@@ -5,7 +5,6 @@ import PatronesCreacionales.factoryMethod.interfaces.Iconexion;
 
 public class ConexionFabrica {
 
-
     public Iconexion getConexion(String motor) {
         if (motor == null) {
             return new ConexionVacia();

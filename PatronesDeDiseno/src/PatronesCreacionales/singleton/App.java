@@ -5,7 +5,6 @@ import PatronesCreacionales.singleton.Model.Conexion;
 public class App {
 
     public static void main(String[] args) {
-
         /*
         Instantiation por constructor prohíbido por ser "private" no es posible por el costructor privado
         Conexion c = new Conexion();

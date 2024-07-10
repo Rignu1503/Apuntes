@@ -16,7 +16,6 @@ public class ConexionPostgreSQL implements Iconexion {
         this.contrasena = "123";
     }
 
-
     @Override
     public void conectar() {
         // Aqui puede ir código JDBC

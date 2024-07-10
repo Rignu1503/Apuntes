@@ -20,7 +20,6 @@ public class ConexionMySQL implements IConexionBD {
     public void conectar() {
         // Aqui puede ir código JDBC
         System.out.println("Se conectó a MySQL");
-
     }
 
     @Override

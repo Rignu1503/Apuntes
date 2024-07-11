@@ -100,3 +100,21 @@ Creamos una clase `ImageProcessor` que tiene una referencia a un objeto `ImageFi
 
 Ejemplo de uso:
 Cuando el usuario desea aplicar un filtro a una imagen, selecciona el filtro adecuado y configura el `ImageProcessor` con la estrategia correspondiente. Luego, llama al método `apply_filter` de `ImageProcessor`, que delega la operación al filtro configurado.
+
+# _Actividad practica_
+
+En la actividad practica
+- Imagina que estás trabajando en un proyecto de desarrollo de una aplicación de gestión de tareas. La aplicación debe permitir a los usuarios crear, editar y eliminar tareas, asignar tareas a diferentes usuarios, y generar reportes de progreso.
+
+Como patrones creacionales usaria el patron de diseño sigleton para tener una configuracion global para la conexion a la base de datos
+Tambien usaria el patron de diseño Factory Method, esto con el fin de gestionar de manera mas facil los tipos de tareas como lo pueden ser las tareas simples, tareas con subtareas, entre otras.
+Posiblemente tambien se implemente patron de dise;o `prototype` si el sistema sequiere dublicar tareas
+
+## Patrones Estructurales
+En este tipo de patrones usaria el patreon `proxy` con el fin de que solo los abministradores puedan modificarr las tareas y que los usurarios que no sean administradores solo tengan el permiso de poder visualizar las tarea asignadas
+
+Tambien se podria implementar el tipo de patron `facade` es con el fin de simplificar las acciones para la gestion de tarea, la gestion de los usuarios a los que se le va a entregar la tarea y la generacion de los reportes
+
+## Patrones Estructurales
+Con este tipo de patron incluiria el patron de diseño `strategy` esto con el fin de gestionar mejor las tareas asignadas, porque si una tarea no necesita reporte una un metodo el cual no tenga que incluir la funcionalidad de de los reprote esto cno el fin de gestionar mejor los recursos del sistema
+

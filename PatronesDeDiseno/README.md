@@ -115,6 +115,6 @@ En este tipo de patrones usaria el patreon `proxy` con el fin de que solo los ab
 
 Tambien se podria implementar el tipo de patron `facade` es con el fin de simplificar las acciones para la gestion de tarea, la gestion de los usuarios a los que se le va a entregar la tarea y la generacion de los reportes
 
-## Patrones Estructurales
+## Patrones de Comportamiento
 Con este tipo de patron incluiria el patron de diseño `strategy` esto con el fin de gestionar mejor las tareas asignadas, porque si una tarea no necesita reporte una un metodo el cual no tenga que incluir la funcionalidad de de los reprote esto cno el fin de gestionar mejor los recursos del sistema
 

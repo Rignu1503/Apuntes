@@ -1,0 +1,11 @@
+# spring.application.name=service-register
+spring:
+  application:
+    name: service-registry
+server:
+  port: 8761 # Puerto por defecto de Eureka
+eureka:
+  client:
+    register-with-eureka: false # No registrar este microservicio con el Eureka
+    fetch-registry: false # No buscar este microservicio en el Eureka
+

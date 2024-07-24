@@ -1,12 +1,16 @@
 import express, { Request, Response } from "express";
 import { AppDataSource } from "./config/connection-db";
 
+import TeamLeaderRouter from "./router/team-leader.route";
+
 const app = express();
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
     res.json({ message: "Hello World!" });
 });
+
+app.use("/api/v1/team-lader", TeamLeaderRouter)
 
 AppDataSource.initialize()
     .then(() => {

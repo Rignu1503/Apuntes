@@ -5,7 +5,7 @@ import express, { Request, Response } from "express";
 
 
 
-const teamLiderRepository = AppDataSource.getRepository(TeamLeader);
+export const teamLiderRepository = AppDataSource.getRepository(TeamLeader);
 
 export async function getAll(req: Request, res: Response) {
     

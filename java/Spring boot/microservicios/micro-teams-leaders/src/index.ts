@@ -14,6 +14,7 @@ app.use("/api/v1/team-lader", TeamLeaderRouter)
 
 AppDataSource.initialize()
     .then(() => {
+        
         console.log("Database connected");
 
         app.listen(7000, () => {

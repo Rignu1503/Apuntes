@@ -48,8 +48,16 @@ public class ClanService implements IClanService {
 
     @Override
     public Clan create(ClanReq req) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'create'");
+        Cohort cohort = this.cohortRepository.findById(req.getCohortId())
+        .orElseThrow(() -> new RuntimeException("Cohort not found"));
+    
+    Clan clan = Clan.builder()
+        .name(req.getName())
+        .description(req.getDescription())
+        .cohort(cohort)
+        .build();
+
+    return this.clanRepository.save(clan);
     }
 
     @Override

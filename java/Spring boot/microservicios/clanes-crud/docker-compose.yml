@@ -15,4 +15,5 @@ services:
       - db_data:/var/lib/mysql  # Corregí la definición del volumen
 
 volumes:
-  db_data:
+  mysql_data:
+    driver: local

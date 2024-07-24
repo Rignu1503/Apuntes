@@ -8,7 +8,8 @@
       "mainClass": "com.riwi.clanes_crud.ClanesCrudApplication",
       "projectName": "clanes-crud",
       "args": "",
-      "envFile": "${workspaceFolder}/.env"
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote"
     },
     {
       "type": "java",
@@ -17,6 +18,16 @@
       "cwd": "${workspaceFolder}",
       "mainClass": "com.example.service_register.ServiceRegisterApplication",
       "projectName": "service-registry",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-GatewayApplication<gateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.riwi.gateway.GatewayApplication",
+      "projectName": "gateway",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }

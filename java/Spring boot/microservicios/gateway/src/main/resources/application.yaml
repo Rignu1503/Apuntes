@@ -15,6 +15,10 @@ spring:
           uri: lb://clanes-crud
           predicates:
             - Path=/clan/**
+        - id: team_leader_service
+          uri: lb://team-leader-service
+          predicates:
+            - Path=/api/v1/team-lader/**
 
 server:
   port: 8080

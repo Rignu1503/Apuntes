@@ -1,6 +1,6 @@
 import { Eureka } from 'eureka-js-client'
 
-const client = new Eureka({
+ export const client = new Eureka({
     instance:{
         app: 'team-leader-service',
         instanceId: 'team-leader-service-instance',

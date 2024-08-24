@@ -1,5 +1,5 @@
 {
-  "name": "s1_vue",
+  "name": "actividad-1-workshop",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,7 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "s1_vue": "file:",
+    "actividad-1-workshop": "file:",
     "vue": "^3.4.29"
   },
   "devDependencies": {

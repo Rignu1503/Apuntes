@@ -19,6 +19,26 @@ public class Main {
 
         // Mostrar el resultado
         System.out.println("Índices: " + Arrays.toString(result));
+        
 
+    }
+
+    public static int[] twoSum(int[] nums, int target) {
+
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        int[] solution = new int[2];
+
+        for(int i=0; i< nums.length; i++){
+
+            int remainig = target - nums[i];
+            if(map.containsKey(remainig)){
+                solution[0] = i;
+                solution[1] = map.get(remainig);
+            }
+            else{
+                map.put(nums[i], i);
+            }
+        }
+        return solution;
     }
 }

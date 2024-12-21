@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AsideComponent } from './components/aside/aside.component';
+import { LazyImageComponent } from './components/lazy-image/lazy-image.component';
 
 
 
 @NgModule({
   declarations: [
-    AsideComponent
+    AsideComponent,
+    LazyImageComponent
   ],
   imports: [
     CommonModule
   ], exports: [
-    AsideComponent
+    AsideComponent,
+    LazyImageComponent
   ]
 })
 export class SharedModule { }

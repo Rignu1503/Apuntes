@@ -1,6 +1,6 @@
 package org.rigo.mockitoapp.example;
 
-public class exercice3 {
+public class exercise3 {
 
     /**
      *
@@ -48,7 +48,7 @@ public class exercice3 {
         return output;
     }
     public static void main(String[] args) {
-        exercice3 test = new exercice3();
+        exercise3 test = new exercise3();
         System.out.println(test.transformString("Hello World"));
     }
 }

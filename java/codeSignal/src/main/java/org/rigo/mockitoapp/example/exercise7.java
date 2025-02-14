@@ -2,6 +2,14 @@ package org.rigo.mockitoapp.example;
 
 public class exercise7 {
 
+    /*
+    *Se le da una matriz de enteros. Su tarea es escribir una función findMinElement,
+    *  que devuelve el número mínimo de la matriz sin utilizar los métodos incorporados
+    * de Java como Arrays.stream().min().
+    *
+    * Si la matriz está vacía, la función debe devolver null.
+    *
+    * */
     public Integer findMinElement(int[] array) {
 
         if (array.length == 0) return null;

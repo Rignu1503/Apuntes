@@ -12,11 +12,9 @@ public class execise9 {
         for(int i: numbers){
             if (i < small) {
                 small = i;
-            }
-        }
+                repeated = 0;
 
-        for (int i : numbers) {
-            if (small == i) {
+            }if (small == i) {
                 repeated++;
             }
         }

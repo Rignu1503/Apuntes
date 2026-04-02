@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 
+
 @NgModule({
-  exports: [
-    
-  ],
+  exports: []
 })
 export class MaterialModule { }
